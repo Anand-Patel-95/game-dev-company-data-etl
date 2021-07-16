@@ -1,3 +1,5 @@
+Anand Patel
+
 # Project 3: Understanding User Behavior
 
 - You're a data scientist at a game development company  
