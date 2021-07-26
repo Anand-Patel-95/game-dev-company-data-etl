@@ -41,48 +41,11 @@ part of the notebook. The whole report is the presentation and explanation of yo
 plus the analysis!
 
 
-## Options
+## Files of Interest:
 
-There are plenty of advanced options for this project.  Here are some ways to
-take your project further than just the basics we'll cover in class:
-
-- Generate and filter more types of events.  There are plenty of other things
-  you might capture events for during gameplay
-
-- Enhance the API to use additional http verbs such as `POST` or `DELETE` as
-  well as additionally accept _parameters_ for events (e.g., purchase events
-  might accept sword or item type)
-
-- Connect a user-keyed storage engine such as Redis or Cassandra up to Spark so
-  you can track user state during gameplay (e.g., user's inventory or health)
-  
----
-
-#### GitHub Procedures
-
-Important:  In w205, please never merge your assignment branch to the master branch. 
-
-Using the git command line: clone down the repo, leave the master branch untouched, create an assignment branch, and move to that branch:
-- Open a linux command line to your virtual machine and be sure you are logged in as jupyter.
-- Create a ~/w205 directory if it does not already exist `mkdir ~/w205`
-- Change directory into the ~/w205 directory `cd ~/w205`
-- Clone down your repo `git clone <https url for your repo>`
-- Change directory into the repo `cd <repo name>`
-- Create an assignment branch `git branch assignment`
-- Checkout the assignment branch `git checkout assignment`
-
-The previous steps only need to be done once.  Once you your clone is on the assignment branch it will remain on that branch unless you checkout another branch.
-
-The project workflow follows this pattern, which may be repeated as many times as needed.  In fact it's best to do this frequently as it saves your work into GitHub in case your virtual machine becomes corrupt:
-- Make changes to existing files as needed.
-- Add new files as needed
-- Stage modified files `git add <filename>`
-- Commit staged files `git commit -m "<meaningful comment about your changes>"`
-- Push the commit on your assignment branch from your clone to GitHub `git push origin assignment`
-
-Once you are done, go to the GitHub web interface and create a pull request comparing the assignment branch to the master branch.  Add your instructor, and only your instructor, as the reviewer.  The date and time stamp of the pull request is considered the submission time for late penalties. 
-
-If you decide to make more changes after you have created a pull request, you can simply close the pull request (without merge!), make more changes, stage, commit, push, and create a final pull request when you are done.  Note that the last data and time stamp of the last pull request will be considered the submission time for late penalties.
-
-Make sure you receive the emails related to your repository! Your project feedback will be given as comment on the pull request. When you receive the feedback, you can address problems or simply comment that you have read the feedback. 
-AFTER receiving and answering the feedback, merge you PR to master. Your project only counts as complete once this is done.
+- [`proj3_writeup.md`](proj3_writeup.md): My main report for the project.
+- [`ab.sh`](ab.sh): sending apache workbench HTTP commands to flask app for batch mode.
+- [`gameapi.py`](gameapi.py): our flask app for our game api.
+- [`write_hive_table.py`](write_hive_table.py): Spark script to write data to parquet tables in batch mode.
+- [`docker-compose.yml`](docker-compose.yml)
+- [`anand-patel-history.txt`](anand-patel-history.txt): my history file.
