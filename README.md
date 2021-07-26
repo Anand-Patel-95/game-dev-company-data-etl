@@ -45,7 +45,7 @@ plus the analysis!
 
 - [`proj3_writeup.md`](proj3_writeup.md): My main report for the project.
 - [`ab.sh`](ab.sh): sending apache workbench HTTP commands to flask app for batch mode.
-- [`gameapi.py`](gameapi.py): our flask app for our game api.
+- [`game_api.py`](game_api.py): our flask app for our game api.
 - [`write_hive_table.py`](write_hive_table.py): Spark script to write data to parquet tables in batch mode.
 - [`docker-compose.yml`](docker-compose.yml)
 - [`anand-patel-history.txt`](anand-patel-history.txt): my history file.
