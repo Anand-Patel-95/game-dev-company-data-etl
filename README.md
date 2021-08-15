@@ -4,7 +4,7 @@ Anand Patel
 
 - You're a data scientist at a game development company  
 
-- Your latest mobile game has two events you're interested in tracking: `buy a
+- Your latest mobile game has atleast two events you're interested in tracking: `buy a
   sword` & `join guild`
 
 - Each has metadata characterstic of such events (i.e., sword type, guild name,
