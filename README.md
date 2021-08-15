@@ -22,19 +22,14 @@ Anand Patel
 - Use Apache Bench to generate test data for your pipeline.
 
 - Produce an analytics report where you provide a description of your pipeline
-  and some basic analysis of the events. Explaining the pipeline is key for this project!
-
-- Submit your work as a git PR as usual. AFTER you have received feedback you have to merge 
-  the branch yourself and answer to the feedback in a comment. Your grade will not be 
-  complete unless this is done!
+  and some basic analysis of the events.
 
 Use a notebook to present your queries and findings. Remember that this
 notebook should be appropriate for presentation to someone else in your
 business who needs to act on your recommendations. 
 
 It's understood that events in this pipeline are _generated_ events which make
-them hard to connect to _actual_ business decisions.  However, we'd like
-students to demonstrate an ability to plumb this pipeline end-to-end, which
+them hard to connect to _actual_ business decisions.  However, demonstrate an ability to plumb this pipeline end-to-end, which
 includes initially generating test data as well as submitting a notebook-based
 report of at least simple event analytics. That said the analytics will only be a small
 part of the notebook. The whole report is the presentation and explanation of your pipeline 
